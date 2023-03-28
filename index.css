@@ -1,0 +1,100 @@
+body {
+	background-color:  #ECF2FF;
+	color: rgb(142, 195, 176);
+	font-family: roboto slab;
+	font-size: 19px;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+h1,h2,h3 {
+	font-family: arial;
+	text-align: center;
+}
+
+#profile-title {
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	color: #19A7CE;
+}
+
+#call-to-action {
+	display: inline-flex;
+	width: auto;
+	margin-top: 10px;
+	text-decoration: none;
+	background-color: rgb(151, 222, 255);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+#button {
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	color: rgb(151, 222, 255);
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #2F58CD;
+	font-weight: bold;
+	transition: color 0.3s ease
+}
+
+a:hover {
+	color: lightblue;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+.img-logo {
+	border-radius: 30%;
+	width: 400px;
+	weight: 400px;
+
+}
+
+.card {
+	background-color: #EEEEEE;
+	padding: 40px;
+	margin: 20px 0px;
+	box-shadow: 5px 12px 20px -3px rgba(0,0,0,0.69);
+	border-radius: 30px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	gap: 10px;
+	height: 4px;
+	justify-content: center;
+	padding: 0;
+}
+
+@media (max-width : 320px){
+	.container {
+		width: 300px;
+	}
+
+}
+
+@media (max-width : 961px){
+	.container {
+		width: 500px;
+	}
+}
